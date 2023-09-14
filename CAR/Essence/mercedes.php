@@ -7,6 +7,7 @@ Use HONDA\YAMAHA as H;
 					   private $model='Mercedes-Benz C 180';
 					   private $moteur='quatre cylindres diesel 2.2 litres de 120 chevaux' ;
 					   private $color='white_BLUE';
+					   private $fiscal='12 chevaux fiscaux';
 					   
 					   
 					   public function getmodel()
