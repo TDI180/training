@@ -1,4 +1,5 @@
 <?php
+//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 : TrainingToken
 require_once '../CAR/autoloader.php';
 
 use HONDA\YAMAHA\ESSENCE as E;
