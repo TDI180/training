@@ -1,7 +1,7 @@
 <?php
-namespace HONDA\YAMAHA;
+namespace Moteur;
 
-class autoloader
+class autoloaderMoteur
 				{
 				  static function register()
 											{
