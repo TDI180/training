@@ -1,8 +1,8 @@
 <?php
-namespace Moteur\ESSENCE;
-Use Moteur as H;
+namespace ESSENCE;
 
-      class mercedes extends H\moteur 
+
+      class mercedes extends MoteurESSENCE 
 					{
 					   private $model='Mercedes-Benz C 180';					  
 					   private $color='white_BLUE';					  
@@ -22,7 +22,7 @@ Use Moteur as H;
 					  
 						public function getMoteur()
 												{
-												  $this->moteur= new H\moteurEssence();	
+												  $this->moteur= new moteurEssence();	
 													
 												    echo 'puissance-->';
 													echo $this->moteur->getPuissance()."</br>";

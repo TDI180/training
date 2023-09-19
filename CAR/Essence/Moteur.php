@@ -1,8 +1,7 @@
 <?php  
-namespace Moteur;
+namespace Essence;
 
     class  Moteur { }
-
 						
 	class MoteurESSENCE 
 	  
@@ -58,7 +57,7 @@ namespace Moteur;
 						   public function  getCylinder() {						   
 															 echo $this->cylinder."</br>"; 
 														   }
-						}							   
-						
+													   
+						}
 						
 ?>
