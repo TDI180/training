@@ -2,30 +2,29 @@
 //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 : TrainingToken
 require_once '../CAR/autoloader.php';
 
-Moteur\autoloaderMoteur::register();
-use Moteur\ESSENCE as E;
-use Moteur\Diesel  as D;
+//MoteurEssence\autoloaderEssence::register();
+autoloader::register();
 
-
+//use MoteurEssence\ESSENCE as Ess;
+//use MoteurDiesel\Diesel  as Dies;
 
 
 ECHO '---------------------------VOITURE-ESSENCE-------------------------------------------'.'</br>';
 
-$MERCOS_E=new E\mercedes();
+/*$MERCOS_E=new Ess\mercedes();
 $MERCOS_E->getcolor();
-$MERCOS_E->getMoteur();
+$MERCOS_E->getMoteur();*/
 
 
-/*ECHO '----------------------------VOITURE-DIESEL-------------------------------------------'.'</br>';
-$MERCOS=new D\mercedes();
+ECHO '----------------------------VOITURE-DIESEL-------------------------------------------'.'</br>';
+
+$MERCOS=new mercedes();
 $MERCOS->getcolor();
-$MERCOS->getMoteur();*/
-
-
+$MERCOS->getMoteur();
 
 
   try {
-      // division(1,0);  
+          // division(1,0);  
       }  
 	  
 	  

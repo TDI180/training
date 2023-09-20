@@ -1,7 +1,4 @@
 <?php  
-namespace Moteur;
-
-    class  Moteur { }
 
 						
 	class MoteurESSENCE 
@@ -36,11 +33,12 @@ namespace Moteur;
 														   }
 													   
 						}	
-     class MoteurDiesel
+						
+     class MoteurDIESEL
 	  
 						{
 						   private $model='Mercedes-Benz C 180';
-						   private $motorisation='Common Rail Diesel Injection' ;
+						   private $moteur='Common Rail Diesel Injection' ;
 						   private $puissance='194 chevaux';
 						   private $cylinder='4 cylindre en ligne-2.2 litres';
 						   
@@ -59,6 +57,6 @@ namespace Moteur;
 															 echo $this->cylinder."</br>"; 
 														   }
 													   
-						
+						}
 						
 ?>

@@ -1,9 +1,6 @@
 <?php
-namespace Moteur\DIESEL;
-Use Moteur as H;
 
-
-class mercedes extends H\moteur
+class mercedes extends moteurDiesel
                   {
 					private $model;
 					private $moteur;
@@ -26,7 +23,7 @@ class mercedes extends H\moteur
 					   
 					public function getMoteur()
 												{
-												  $this->moteur= new H\MoteurDiesel();												  
+												  $this->moteur= new MoteurDiesel();												  
 												    echo "MOTOR-MERCO-PUISSANCE-->".$this->moteur->getPuissance();
 												    echo "MOTOR-MERCO-CYLINDER--->".$this->moteur->getCylinder(); 
 												    echo "MOTOR-MERCO-MOTEUR----->".$this->moteur->getMoteur();
