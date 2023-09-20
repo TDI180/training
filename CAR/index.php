@@ -2,11 +2,16 @@
 //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 : TrainingToken
 require_once '../CAR/autoloader.php';
 
+<<<<<<< HEAD
 //MoteurEssence\autoloaderEssence::register();
 autoloader::register();
 
 //use MoteurEssence\ESSENCE as Ess;
 //use MoteurDiesel\Diesel  as Dies;
+=======
+Essence\autoloader::register();
+use Essence as E;
+>>>>>>> 9128dc66a59547924d5d1d2fcf8f9aca206c4edd
 
 
 ECHO '---------------------------VOITURE-ESSENCE-------------------------------------------'.'</br>';
