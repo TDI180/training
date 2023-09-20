@@ -4,8 +4,7 @@ class mercedes extends moteurDiesel
                   {
 					private $model;
 					private $moteur;
-					private $color;
-					  
+					private $color;					  
 					  
 					  
 					public function getmodel()
