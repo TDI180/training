@@ -1,7 +1,7 @@
 <?php  
-
+namespace TEST;
 						
-	class MoteurESSENCE 
+	class Moteur 
 	  
 						{
 						   private $model='Classe A 250 4Matic';
@@ -34,7 +34,7 @@
 													   
 						}	
 						
-     class MoteurDIESEL
+     /*class Moteur
 	  
 						{
 						   private $model='Mercedes-Benz C 180';
@@ -56,12 +56,9 @@
 						   public function  getCylinder() {						   
 															 echo $this->cylinder."</br>"; 
 														   }
-<<<<<<< HEAD
+
 													   
-						}
-=======
-						}							   
-						
->>>>>>> 9128dc66a59547924d5d1d2fcf8f9aca206c4edd
+						}*/
+
 						
 ?>

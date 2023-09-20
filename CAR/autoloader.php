@@ -1,5 +1,5 @@
 <?php
-
+namespace TEST;
 class autoloader
 				{
 				  static function register()
@@ -8,8 +8,7 @@ class autoloader
 											 //echo __CLASS__.'</br>';	
 											  spl_autoload_register([__CLASS__,'autoload']);	
                                               										  
-											}
-											
+											}											
 											
 				  static function autoload($class)
 										{								  
@@ -32,7 +31,8 @@ class autoloader
 											 if (file_exists(__DIR__.'/'.$class.'.php')) 
 												{
 												  require __DIR__. '/'.$class.'.php';
-												}										
+												}
+													echo "honda-250";
 										}
 											 
 				}	

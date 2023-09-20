@@ -1,6 +1,6 @@
 <?php
 
-class mercedes extends moteurDiesel
+class mercedes extends Moteur
                   {
 					private $model;
 					private $moteur;
@@ -22,7 +22,7 @@ class mercedes extends moteurDiesel
 					   
 					public function getMoteur()
 												{
-												  $this->moteur= new MoteurDiesel();												  
+												  $this->moteur= new Moteur();												  
 												    echo "MOTOR-MERCO-PUISSANCE-->".$this->moteur->getPuissance();
 												    echo "MOTOR-MERCO-CYLINDER--->".$this->moteur->getCylinder(); 
 												    echo "MOTOR-MERCO-MOTEUR----->".$this->moteur->getMoteur();

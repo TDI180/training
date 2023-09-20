@@ -1,28 +1,28 @@
 <?php
 //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 : TrainingToken
-require_once '../CAR/autoloader.php';
+require_once '../CAR/Essence/autoloader.php';
+//require_once '../CAR/Essence/test.php';
 
-autoloader::register();
+TEST\autoloader::register();
 
+$test=new TEST\TEST();
+$test->TESTHONDA();
 
 ECHO '---------------------------VOITURE-ESSENCE-------------------------------------------'.'</br>';
 
-/*$MERCOS_E=new Ess\mercedes();
+$MERCOS_E=new TEST\mercedes();
 $MERCOS_E->getcolor();
-$MERCOS_E->getMoteur();*/
-
+//$MERCOS_E->getMoteur();
 
 ECHO '----------------------------VOITURE-DIESEL-------------------------------------------'.'</br>';
 
-$MERCOS=new mercedes();
+/*$MERCOS=new mercedes();
 $MERCOS->getcolor();
-$MERCOS->getMoteur();
-
+$MERCOS->getMoteur();*/
 
   try {
-          // division(1,0);  
-      }  
-	  
+        // division(1,0);  
+      }  	  
 	  
   catch(Exception $e) {  
                         echo "Message : " . $e->getMessage();  
@@ -32,13 +32,12 @@ $MERCOS->getMoteur();
 					  
   function division($a, $b) 
   {
-    if($b == 0) {  
-      throw new Exception("c l infini----", -32);  
+    if( $b == 0) {  
+      throw new Exception("c l infini----",-32);  
     }else{
       return $a/$b;
     } 
-  }  
-					
+  } 					
 
 ?>
 
