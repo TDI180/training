@@ -1,7 +1,7 @@
 <?php  
-namespace Essence;    
+namespace Vehicle\gasoline;
 						
-	class MoteurEssence
+	class MoteurEssence 
 	  
 						{
 						   private $model='Classe A 250 4Matic';

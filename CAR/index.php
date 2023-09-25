@@ -1,18 +1,20 @@
 <?php
 //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 : TrainingToken
-require_once '../CAR/Essence/autoloader.php';
-//require_once '../CAR/Essence/test.php';
 
-TEST\autoloader::register();
+require_once '../CAR/autoloader.php';
 
-$test=new TEST\TEST();
-$test->TESTHONDA();
+//Vehicle\gasoline\autoloader::register();
+
+$VGAutoloader=new Vehicle\gasoline\autoloader(5,2);
+
+$VGAutoloader::register();
 
 ECHO '---------------------------VOITURE-ESSENCE-------------------------------------------'.'</br>';
-
-$MERCOS_E=new TEST\mercedes();
+/*$moteur=new Essence\moteur;
+$moteur->getPuissancefiscal();*/
+$MERCOS_E=new Vehicle\gasoline\mercedes();
 $MERCOS_E->getcolor();
-//$MERCOS_E->getMoteur();
+$MERCOS_E->getMoteur();
 
 ECHO '----------------------------VOITURE-DIESEL-------------------------------------------'.'</br>';
 

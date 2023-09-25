@@ -1,13 +1,7 @@
 <?php
-namespace Vehicle\gasoline;
-
+namespace Essence;
 class autoloader
 				{
-					
-				public function __construct($a,$b) {
-													echo $a.'</br>';
-													echo $b.'<br/>';
-													}             	
 				  static function register()
 											{
 											  //spl_autoload_register('autoload');
@@ -32,29 +26,13 @@ class autoloader
                                              //echo "aprés 2--STR---->".$class.'</br>';											
 											// echo "***************************************************".'</br>';	
 												
-											
+											//require __DIR__. '/'.$class.'.php';
 											 
-											 if (file_exists(__DIR__.'/gasoline/'.$class.'.php')) 
-												{
-												  require __DIR__. '/gasoline/'.$class.'.php';												  
-												}
-												
-											if (file_exists(__DIR__.'/gasoline/Motorisation/'.$class.'.php')) 
-												{
-												  require __DIR__. '/gasoline/Motorisation/'.$class.'.php';												  
-												}
-												
-												
-												
-											if (file_exists(__DIR__.'/'.$class.'.php')) 
+											 if (file_exists(__DIR__.'/'.$class.'.php')) 
 												{
 												  require __DIR__. '/'.$class.'.php';
-												  
-												}	
-												
-												
-												
-													//echo "honda-250-------"."</br>";
+												}
+													echo "honda-250"."</br>";
 										}
 											 
 				}	
